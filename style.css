@@ -26,3 +26,13 @@ button {
   width: 100px;
   height: 40px;
 }
+
+#div {
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-right:40%;
+  margin-left: 40%;
+  font-size: 18px;
+  border-style: solid;
+  padding: 50px;
+}

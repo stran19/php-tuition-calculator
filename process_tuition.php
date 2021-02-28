@@ -1,8 +1,9 @@
 <html>
   <head>
     <title>PHP Test</title>
+    <link href="style.css" rel="stylesheet">
   </head>
-  <body>
+  <body id="div">
     <?php 
   
   $res = $_GET['resident'];
@@ -19,6 +20,7 @@
   echo "<p>College Services Card: $" .$cscard . "</p>";
   echo "<p>Parking Permit: $" .$parking . "</p>";
   echo "<p>Total Registration Costs: $" .$total . "</p>";
+  echo "<p>~Scholarship Deductible $" .$scholar . "</p>";
   echo "<p>Total College Balance: $" .$totaldue . "</p>";
 
   
